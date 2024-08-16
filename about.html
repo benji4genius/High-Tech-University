@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   <meta name="veiwport" content="width=device-width,initial- scale= 1.0">
+
+  <title>University Website Design-  Benji4genius</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+ <body>
+
+    <section class="sub-header1">
+
+        <nav>
+
+            <a href="index.html"> <img src="images/High-tech academy.png"> </a>
+
+
+            <div class="nav-links" id="navLinks">
+            
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!---------------- about us content ------------------>
+    <section class="about-us">
+
+     <div class="row">
+
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>With enrollment of over 100,000 students world wide, High Tech Academy is now one of the largest hybrid institutions of higher learning in the world. 
+             Despite our phenomenal growth we know it is not the size of the dog in the fight but the fight in the dog that counts. We make our enrollment process very seamless, 
+             and students have the option to either enroll in our online degree progams or our in person programs at any of our state of the arts campuses located in different countries around the world.</p>
+
+         <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+
+        <div class="about-col">
+         <img src="images/about.jpg">
+
+        </div>
+     </div>
+
+    </section>
+
+    
+
+
+   
+
+    <!--------------- Footer --------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>High Tech Academy is focused on helping you achieve your goal, 
+           Because your success is our success.<br> From the moment you join the High Tech community, you will have support every step of the way.</p>
+           <div class="icons">
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+           </div>
+           <p>Made with <i class="fa fa-heart-o"></i> by Benji4genius</p>
+    </section>
+
+
+
+
+
+
+   <!-------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+ </script>
+
+ </body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   <meta name="veiwport" content="width=device-width,initial- scale= 1.0">
+
+  <title>University Website Design-  Benji4genius</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+ <body>
+
+    <section class="sub-header2">
+
+        <nav>
+
+            <a href="index.html"> <img src="images/High-tech academy.png"> </a>
+
+
+            <div class="nav-links" id="navLinks">
+            
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+   <!------------- Course --------------->
+
+    
+   <Section class="course">
+
+    <h1>Courses We Offer</h1>
+
+    <p> We offer Lots of valuable courses, degrees and certifications that are curently in high demand in the tech industry.</p>
+
+    <div class="row">
+
+        <div class="course-col">
+
+            <h3>Intermediate</h3>
+
+            <p> This Section bascially gives a complete break down of the different stages your will pass through,
+                during the entire program. This will walk you through step by step the required prerequisite courses,
+                for your first and second semeter of the first year and the subsequent years to come till the end of the 4 year program
+                or 2 year certifications.
+
+            </p>
+     
+        </div>
+
+        <div class="course-col">
+
+            <h3>Degree</h3>
+
+            <p> At this stage you are fully integrated into the progam and are nearing completion.
+                Before completing our program we ideally have our students complete a 1 year relevant intership
+                that will provide them with the necessary experience employers are hunting for on your resume during hiring
+                process.
+
+            </p>
+     
+        </div>
+
+        <div class="course-col">
+
+            <h3>Post Graduation</h3>
+
+            <p> After the completion of your degree the sky is the limit, all sorts of career opprtunities
+                will be at your disposal. However, lots of our previous students decides to re-enroll into our
+                masters/ advance degrees. Enrolling in our advance degrees will unequivocally provide an unrivaled
+                knowledge in whichever advance degree program you choose.
+                
+            </p>
+     
+        </div>
+
+    </div>
+
+</Section>
+
+<!------------- facilities ------------------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Explore these cutting-edge technological facilities available at all our campuses globally.</p>
+
+    <div class="row">
+
+        <div class="facilities-col">
+            <img src="images/High tech academy library.png">
+            <h3>World Class Library</h3>
+            <p>At our state of the Arts libraries, we have plethoras of informational journals, manuscripts and textbooks on several programming
+               languages and enginereering courses, not to mention several invaluable archives readily available to students on laptops and desktops 
+               in all our libarries globally.
+            </p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="images/High tech academy gymnasium.png">
+            <h3>Ultra-modern Athletic Center</h3>
+            <p>Our student enjoy access to several state of the arts athletic facilities
+                such as our high performance and fully intergrated gymnasium which includes
+                a baskball court, fitness gyms, olympic style pools and so on.
+            </p>
+            
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/High tech academy cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p> One of our core values at our institution is to ensure every student feels
+                welcomed and recognised, which is the reason we made certain not only the food served at our 
+                exquisite cafeteria are prepared with the best and quality produce,but also the food menus represents 
+                our student's cultural and diverse dietary needs.
+            </p>
+            
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+   
+
+    <!--------------- Footer --------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>High Tech Academy is focused on helping you achieve your goal, 
+           Because your success is our success.<br> From the moment you join the High Tech community, you will have support every step of the way.</p>
+           <div class="icons">
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+           </div>
+           <p>Made with <i class="fa fa-heart-o"></i> by Benji4genius</p>
+    </section>
+
+
+
+
+
+
+   <!-------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+ </script>
+
+ </body>
+
+</html>
