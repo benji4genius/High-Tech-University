@@ -1,4 +1,5 @@
 OVERVIEW
+
 This is a basic university website, High Tech University, built using HTML5, CSS, Vanilla JavaScript, and PHP. It showcases essential elements commonly found in university websites, such as:
 
 - Homepage: Contains a banner, about section, news feed, and contact information.
