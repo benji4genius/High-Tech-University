@@ -20,7 +20,7 @@ Visual Studio Code: A popular code editor for web development.
 GETTING STARTED
 Clone the Repository:
 Bash
-git clone https://github.com/your-username/high-tech-university-website.git
+git clone https://github.com/benji4genius/high-tech-university-website.git
 
 
 Open in Visual Studio Code: Navigate to the cloned directory and open it in Visual Studio Code.
